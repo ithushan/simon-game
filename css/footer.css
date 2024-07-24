@@ -1,0 +1,20 @@
+.footer{
+    background: #5C8984;
+    width: 500px;
+    height: 75px;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 15%;
+    margin-left: 30%;
+    position: fixed;
+    opacity: 0.8;
+  }
+  
+  .footer P{
+    font-family: 'Press Start 2P', cursive;
+      font-size: 1rem;
+      color: hwb(49 75% 0% / 0.843);
+      margin-top: 20px;
+  }
+  
+  

@@ -1,0 +1,109 @@
+/* Disables selector ring */
+body:not(.user-is-tabbing) button:focus,
+body:not(.user-is-tabbing) input:focus,
+body:not(.user-is-tabbing) select:focus,
+body:not(.user-is-tabbing) textarea:focus {
+  outline: none;
+}
+/* ####################################### */
+.modal{
+    z-index: 1;
+    
+    position: absolute;
+    font-family: 'Press Start 2P', cursive;
+    /* overflow-x: hidden; */
+}
+/* .modal.open{
+    display: block;
+} */
+
+.hide{
+    display: none;
+}
+.modal-register{
+    z-index: 1;
+    display: none;
+    position: absolute;
+    font-family: 'Press Start 2P', cursive;
+    /* overflow-x: hidden; */
+}
+.modal-register.open{
+    display: block;
+}
+.form-container .error-msg{
+    margin-bottom: 8px;
+}
+
+h2 {
+    color: hwb(49 75% 0% / 0.843);
+    font-size: 25px;
+    font-weight: 800;
+}
+
+p{
+    font-size: .8rem;
+    color: hwb(49 75% 0% / 0.843);
+}
+.form-container span{
+    color: #233241;
+    text-decoration: none;
+}
+
+.form-container span:hover{
+    color: #0c1520;
+    border-bottom: 1.5px solid;
+    cursor: pointer;
+}
+  
+.flex-container {
+    width: 100vw;
+    margin-top: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 425px;
+    /* margin-top: px; */
+    padding-top: 20px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #5c8984d2;
+}
+  
+input{
+    border: none;
+    border-bottom: solid hwb(49 75% 0% / 0.843) 1px;
+    margin-bottom: 30px;
+    background: none;
+    color: hwb(49 75% 0% / 0.843);
+    height: 30px;
+    width: 300px;
+    font-weight: 800;
+}
+input::placeholder{
+    color:hwb(49 75% 0% / 0.843) ;
+    font-size: .8rem;
+}
+
+.modal-btn {
+    cursor: pointer; 
+    border: none;
+    border-radius: 5px; 
+    padding: auto;
+    background: #2c3e50;
+    color: hwb(49 75% 0% / 0.843);
+    width: 100px;
+    transition: all 0.5s;
+}
+
+.modal-btn:hover {
+    background: hwb(49 75% 0% / 0.843);
+    color: #2c3e50;
+}
